@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Jasper20037/ReactPortfolioS3/static/css/main.4b828c60.css",
-    "main.js": "/Jasper20037/ReactPortfolioS3/static/js/main.bb6f5f9b.js",
-    "static/media/hero-img.png": "/Jasper20037/ReactPortfolioS3/static/media/hero-img.1486dd5b233d588070eb.png",
-    "static/media/about-me.jpg": "/Jasper20037/ReactPortfolioS3/static/media/about-me.989cddfb776989c83bc0.jpg",
-    "static/media/work5.jpg": "/Jasper20037/ReactPortfolioS3/static/media/work5.423cb5fa6f17289d7a22.jpg",
-    "static/media/work6.jpg": "/Jasper20037/ReactPortfolioS3/static/media/work6.4f661f619197805f96f5.jpg",
-    "static/media/work4.png": "/Jasper20037/ReactPortfolioS3/static/media/work4.ce9842ae6983a455d23a.png",
-    "static/media/work2.png": "/Jasper20037/ReactPortfolioS3/static/media/work2.82fe94bf0d5ee7798aa2.png",
-    "static/media/work1.png": "/Jasper20037/ReactPortfolioS3/static/media/work1.cbe39e97a8bfd419f337.png",
-    "static/media/CV-JH.pdf": "/Jasper20037/ReactPortfolioS3/static/media/CV-JH.36bad486860fab2da39b.pdf",
-    "static/media/Poppins-Regular.ttf": "/Jasper20037/ReactPortfolioS3/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
-    "static/media/work3.jpg": "/Jasper20037/ReactPortfolioS3/static/media/work3.b8147d438cbe9f85ea2d.jpg",
-    "index.html": "/Jasper20037/ReactPortfolioS3/index.html",
-    "main.4b828c60.css.map": "/Jasper20037/ReactPortfolioS3/static/css/main.4b828c60.css.map",
-    "main.bb6f5f9b.js.map": "/Jasper20037/ReactPortfolioS3/static/js/main.bb6f5f9b.js.map"
+    "main.css": "/ReactPortfolioS3/static/css/main.c6e39602.css",
+    "main.js": "/ReactPortfolioS3/static/js/main.89b17f10.js",
+    "static/media/hero-img.png": "/ReactPortfolioS3/static/media/hero-img.1486dd5b233d588070eb.png",
+    "static/media/about-me.jpg": "/ReactPortfolioS3/static/media/about-me.989cddfb776989c83bc0.jpg",
+    "static/media/work5.jpg": "/ReactPortfolioS3/static/media/work5.423cb5fa6f17289d7a22.jpg",
+    "static/media/work6.jpg": "/ReactPortfolioS3/static/media/work6.4f661f619197805f96f5.jpg",
+    "static/media/work4.png": "/ReactPortfolioS3/static/media/work4.ce9842ae6983a455d23a.png",
+    "static/media/work2.png": "/ReactPortfolioS3/static/media/work2.82fe94bf0d5ee7798aa2.png",
+    "static/media/work1.png": "/ReactPortfolioS3/static/media/work1.cbe39e97a8bfd419f337.png",
+    "static/media/CV-JH.pdf": "/ReactPortfolioS3/static/media/CV-JH.36bad486860fab2da39b.pdf",
+    "static/media/Poppins-Regular.ttf": "/ReactPortfolioS3/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/work3.jpg": "/ReactPortfolioS3/static/media/work3.b8147d438cbe9f85ea2d.jpg",
+    "index.html": "/ReactPortfolioS3/index.html",
+    "main.c6e39602.css.map": "/ReactPortfolioS3/static/css/main.c6e39602.css.map",
+    "main.89b17f10.js.map": "/ReactPortfolioS3/static/js/main.89b17f10.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b828c60.css",
-    "static/js/main.bb6f5f9b.js"
+    "static/css/main.c6e39602.css",
+    "static/js/main.89b17f10.js"
   ]
 }
