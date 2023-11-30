@@ -22,11 +22,8 @@ import Feedbacks from "./components/feedback/Feedback";
 import Contact from "./components/contact/Contact";
 // importing footer component
 import Footer from "./components/footer/Footer";
-// importing routing
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import ProductPage from "./components/product/ProductPage";
 
-const App = () => {
+const app = () => {
   return (
     // Importing all components in the main app(lication) to show them on the page
     // Components in order of view order
@@ -36,10 +33,7 @@ const App = () => {
       <Nav />
       <About />
       <Experience />
-      <LearningOutcomes />
-      {/* <Routes>
-        <Route path="/product/:id" element={<ProductPage />} />
-      </Routes> */}
+      <LO />
       <Main />
       <Feedbacks />
       <Contact />
@@ -48,5 +42,4 @@ const App = () => {
   );
 };
 
-export default App;
-
+export default app;
