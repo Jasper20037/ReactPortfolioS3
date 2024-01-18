@@ -30,23 +30,28 @@ const App = () => {
   return (
     // Importing all components in the main app(lication) to show them on the page
     // Components in order of view order
-    <div>
-      {/* All components */}
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <LearningOutcomes />
-      {/* <Routes>
-        <Route path="/product/:id" element={<ProductPage />} />
-      </Routes> */}
-      <Main />
-      <Feedbacks />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Nav />
+        <About />
+        <Experience />
+
+        <Routes>
+          {/* Default route to display LearningOutcomes */}
+          <Route path="/" element={<LearningOutcomes />} />
+
+          {/* Route for a separate page displaying ProductPage */}
+          <Route path="/products/:work" element={<ProductPage />} />
+        </Routes>
+
+        <Main />
+        <Feedbacks />
+        <Contact />
+        <Footer />
+      </div>
+    </Router>
   );
 };
 
 export default App;
-

@@ -15,6 +15,8 @@ const LearningOutcomes = () => {
           id: 1,
           productId: 1,
           title: "Personal Portfolio",
+          productDescription: "Product description",
+          productUrl: "https://jasper20037.github.io/PersonalPortfolio/",
           course: "FED",
           LO1: "",
           LO2: "",
@@ -233,10 +235,14 @@ const LearningOutcomes = () => {
                 // TODO - Make link to product page work
                 <li key={work.id}>
                   <AiOutlineCheck className="service__list-icon" />
+                  {/* Displaying the data */}
+                  <li key={work.productId}>
+                    <Link to={`/products/${work.productId}`}>{work.title}</Link>
+                  </li>
                   {/* Naviagtion to product page using the id parameter to know which data should be displayed on the productpage */}
-                  <NavLink to={`/product/${work.productId}`}>
+                  {/* <NavLink to={`/product/${work.productId}`}>
                     {work.title}
-                  </NavLink>
+                  </NavLink> */}
                 </li>
               ))}
             </ul>
