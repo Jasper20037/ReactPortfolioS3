@@ -2,7 +2,6 @@
 import React from "react";
 import "./learning-outcomes.css";
 // routes for the learning outcomes
-import { Link, NavLink } from "react-router-dom";
 import { AiOutlineCheck } from "react-icons/ai";
 
 const LearningOutcomes = () => {
@@ -16,7 +15,7 @@ const LearningOutcomes = () => {
           productId: 1,
           title: "Personal Portfolio",
           productDescription: "Product description",
-          productUrl: "https://jasper20037.github.io/PersonalPortfolio/",
+          URL: "https://jasper20037.github.io/portfolio-work/products/FED/Personal-portfolio.html",
           course: "FED",
           LO1: "",
           LO2: "",
@@ -237,12 +236,8 @@ const LearningOutcomes = () => {
                   <AiOutlineCheck className="service__list-icon" />
                   {/* Displaying the data */}
                   <li key={work.productId}>
-                    <Link to={`/products/${work.productId}`}>{work.title}</Link>
+                    <a href={work.URL}>{work.title}</a>
                   </li>
-                  {/* Naviagtion to product page using the id parameter to know which data should be displayed on the productpage */}
-                  {/* <NavLink to={`/product/${work.productId}`}>
-                    {work.title}
-                  </NavLink> */}
                 </li>
               ))}
             </ul>

@@ -22,35 +22,22 @@ import Feedbacks from "./components/feedback/Feedback";
 import Contact from "./components/contact/Contact";
 // importing footer component
 import Footer from "./components/footer/Footer";
-// importing routing
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import ProductPage from "./components/product/ProductPage";
 
 const App = () => {
   return (
     // Importing all components in the main app(lication) to show them on the page
     // Components in order of view order
-    <Router>
-      <div>
-        <Header />
-        <Nav />
-        <About />
-        <Experience />
-
-        <Routes>
-          {/* Default route to display LearningOutcomes */}
-          <Route path="/" element={<LearningOutcomes />} />
-
-          {/* Route for a separate page displaying ProductPage */}
-          <Route path="/products/:work" element={<ProductPage />} />
-        </Routes>
-
-        <Main />
-        <Feedbacks />
-        <Contact />
-        <Footer />
-      </div>
-    </Router>
+    <div>
+      <Header />
+      <Nav />
+      <About />
+      <Experience />
+      <LearningOutcomes />
+      <Main />
+      <Feedbacks />
+      <Contact />
+      <Footer />
+    </div>
   );
 };
 
