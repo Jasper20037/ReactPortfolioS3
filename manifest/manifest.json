@@ -2,7 +2,7 @@
     "theme_color": "#01AAB2",
     "background_color": "#222831",
     "display": "standalone",
-    "scope": "../index.html",
+    "scope": "./index.html",
     "start_url": "./index.html",
     "name": "Portfolio Jasper van den Heuvel",
     "short_name": "Portfolio Jasper H",
