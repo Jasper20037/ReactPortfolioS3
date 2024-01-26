@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ReactPortfolioS3/static/css/main.925b955a.css",
-    "main.js": "/ReactPortfolioS3/static/js/main.ab0c4636.js",
+    "main.js": "/ReactPortfolioS3/static/js/main.61b6546d.js",
     "static/media/work1.png": "/ReactPortfolioS3/static/media/work1.f9e5a80a697a50308039.png",
     "static/media/hero-img.png": "/ReactPortfolioS3/static/media/hero-img.1486dd5b233d588070eb.png",
     "static/media/about-me.jpg": "/ReactPortfolioS3/static/media/about-me.989cddfb776989c83bc0.jpg",
     "static/media/work6.jpg": "/ReactPortfolioS3/static/media/work6.423cb5fa6f17289d7a22.jpg",
     "static/media/work7.jpg": "/ReactPortfolioS3/static/media/work7.4f661f619197805f96f5.jpg",
     "static/media/work5.png": "/ReactPortfolioS3/static/media/work5.ce9842ae6983a455d23a.png",
-    "static/media/work3.png": "/ReactPortfolioS3/static/media/work3.82fe94bf0d5ee7798aa2.png",
+    "static/media/3DAbstract.png": "/ReactPortfolioS3/static/media/3DAbstract.6cb4475fa10c99aab551.png",
     "static/media/work2.png": "/ReactPortfolioS3/static/media/work2.cbe39e97a8bfd419f337.png",
     "static/media/ProjectPlan-Sinq.pdf": "/ReactPortfolioS3/static/media/ProjectPlan-Sinq.da0739b9f04618068a36.pdf",
     "static/media/Poppins-Regular.ttf": "/ReactPortfolioS3/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
@@ -17,10 +17,10 @@
     "static/media/Assignment1-research.pdf": "/ReactPortfolioS3/static/media/Assignment1-research.46f30dd0a3e01c74ab33.pdf",
     "index.html": "/ReactPortfolioS3/index.html",
     "main.925b955a.css.map": "/ReactPortfolioS3/static/css/main.925b955a.css.map",
-    "main.ab0c4636.js.map": "/ReactPortfolioS3/static/js/main.ab0c4636.js.map"
+    "main.61b6546d.js.map": "/ReactPortfolioS3/static/js/main.61b6546d.js.map"
   },
   "entrypoints": [
     "static/css/main.925b955a.css",
-    "static/js/main.ab0c4636.js"
+    "static/js/main.61b6546d.js"
   ]
 }
