@@ -4,7 +4,7 @@ import "./main.css";
 // import images for work cards
 import IMG1 from "../../assets/work1.png";
 import IMG2 from "../../assets/work2.png";
-import IMG3 from "../../assets/work3.png";
+import IMG3 from "../../assets/3DAbstract.png";
 import IMG4 from "../../assets/work4.jpg";
 import IMG5 from "../../assets/work5.png";
 import IMG6 from "../../assets/work6.jpg";
@@ -17,33 +17,43 @@ import projectplan from "../../assets/PDF/ProjectPlan-Sinq.pdf";
 const work = [
   {
     key: 1,
-    id: "PersonalPortfolio",
+    id: "NoiseControl",
     img: IMG1,
-    title: "Personal Portfolio",
+    title: "Noise Control - Project",
     course: "FED",
-    github: "https://github.com/Jasper20037/ProductWebsite",
+    github: "https://git.fhict.nl/I514889/noise-control",
     deproductmo: "https://jasper20037.github.io/ProductWebsite/",
   },
   {
     key: 2,
+    id: "PersonalPortfolio",
+    img: IMG1,
+    title: "Personal Portfolio",
+    course: "FED",
+    github: "https://github.com/Jasper20037/ReactPortfolioS3/tree/master",
+    deproductmo:
+      "https://jasper20037.github.io/portfolio-work/products/FED/Personal-portfolio.html",
+  },
+  {
+    key: 3,
     id: "ProductWebsite",
     img: IMG2,
     title: "Product Landing Page",
     course: "FED",
     github: "https://github.com/Jasper20037/ProductWebsite",
-    deproductmo: "https://jasper20037.github.io/ProductWebsite/",
-  },
-  {
-    key: 3,
-    id: "PokemonGame",
-    img: IMG3,
-    title: "Pokemon Battle Game",
-    course: "FED",
-    github: "https://github.com/Jasper20037/PokemonGame",
-    product: "https://jasper20037.github.io/PokemonGame/",
+    deproductmo:
+      "https://jasper20037.github.io/portfolio-work/products/FED/Product-website.html",
   },
   {
     key: 4,
+    id: "3DAbstract",
+    img: IMG3,
+    title: "Abstract Blobs",
+    course: "MP",
+    product: "https://jasper20037.github.io/PokemonGame/",
+  },
+  {
+    key: 5,
     id: "ProductPoster",
     img: IMG4,
     title: "Product poster",
@@ -52,7 +62,7 @@ const work = [
     product: "-",
   },
   {
-    key: 5,
+    key: 6,
     id: "BladeRunner3D",
     img: IMG5,
     title: "3D Blade runner Architecture",
@@ -60,31 +70,13 @@ const work = [
     github: "",
     product: "-",
   },
-  {
-    key: 6,
-    id: "PassionateIdea",
-    img: IMG6,
-    title: "Passionate idea",
-    course: "UCD",
-    github: "",
-    product: Assignment1,
-  },
-  {
-    key: 7,
-    id: "ProjectPlan",
-    img: IMG7,
-    title: "Project Plan",
-    course: "Project",
-    github: "",
-    product: projectplan,
-  },
 ];
 
 const Main = () => {
   return (
     <section id="work">
-      <h5>My latest Work</h5>
-      <h2>My Work</h2>
+      <h5>My Work</h5>
+      <h2>My Proudest Work</h2>
 
       <article className="container work__container">
         {/* mapping the data from the "work" array to display the product cards*/}
