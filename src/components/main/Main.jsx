@@ -2,11 +2,12 @@
 import React from "react";
 import "./main.css";
 // import images for work cards
+import projectImg from "../../assets/Dashboard.png";
 import IMG1 from "../../assets/work1.png";
 import IMG2 from "../../assets/work2.png";
 import IMG3 from "../../assets/3DAbstract.png";
 import IMG4 from "../../assets/work4.jpg";
-import IMG5 from "../../assets/work5.png";
+import IMG5 from "../../assets/Halloween.png";
 import IMG6 from "../../assets/work6.jpg";
 import IMG7 from "../../assets/work7.jpg";
 // Importing work
@@ -18,11 +19,12 @@ const work = [
   {
     key: 1,
     id: "NoiseControl",
-    img: IMG1,
+    img: projectImg,
     title: "Noise Control - Project",
     course: "FED",
     github: "https://git.fhict.nl/I514889/noise-control",
-    deproductmo: "https://jasper20037.github.io/ProductWebsite/",
+    product:
+      "https://jasper20037.github.io/portfolio-work/products/Project/index.html",
   },
   {
     key: 2,
@@ -31,7 +33,7 @@ const work = [
     title: "Personal Portfolio",
     course: "FED",
     github: "https://github.com/Jasper20037/ReactPortfolioS3/tree/master",
-    deproductmo:
+    product:
       "https://jasper20037.github.io/portfolio-work/products/FED/Personal-portfolio.html",
   },
   {
@@ -41,7 +43,7 @@ const work = [
     title: "Product Landing Page",
     course: "FED",
     github: "https://github.com/Jasper20037/ProductWebsite",
-    deproductmo:
+    product:
       "https://jasper20037.github.io/portfolio-work/products/FED/Product-website.html",
   },
   {
@@ -50,7 +52,8 @@ const work = [
     img: IMG3,
     title: "Abstract Blobs",
     course: "MP",
-    product: "https://jasper20037.github.io/PokemonGame/",
+    product:
+      "https://jasper20037.github.io/portfolio-work/products/MP/Abstract-Blobs.html",
   },
   {
     key: 5,
@@ -58,17 +61,17 @@ const work = [
     img: IMG4,
     title: "Product poster",
     course: "MP",
-    github: "",
-    product: "-",
+    product:
+      "https://jasper20037.github.io/portfolio-work/products/MP/Product-poster.html",
   },
   {
     key: 6,
     id: "BladeRunner3D",
     img: IMG5,
-    title: "3D Blade runner Architecture",
+    title: "3D Halloween",
     course: "MP",
-    github: "",
-    product: "-",
+    product:
+      "https://jasper20037.github.io/portfolio-work/products/MP/Halloween.html",
   },
 ];
 

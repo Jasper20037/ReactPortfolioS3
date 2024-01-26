@@ -55,6 +55,11 @@ const About = () => {
             a PRM Floor Cöordinator i am responsible for the daily operations of
             the PRM department. Such as the smooth running of PRM agents and the
             communication with the passengers.
+            <br></br>
+            <br></br>
+            As you will see on my portfolio i have worked on many projects, but
+            my main focus is on Full stack web Development. Because i would like
+            this to be my future working field.
           </p>
 
           <a className="button primary-button" href="#contact">
